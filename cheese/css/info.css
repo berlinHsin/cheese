@@ -1,0 +1,54 @@
+.info_time{
+  position:absolute;
+  top:240px;
+  width:1002px;
+  height:150px;
+}
+.info_week{
+  position:absolute;
+  top:115px;
+  width:1002px;
+  height:150px;
+}
+.info_where{
+  position:absolute;
+  background-image:url(p.3/input.png);
+  background-repeat:no-repeat;
+  background-size:100% 99%;
+  width:230px;
+  height:60px;
+  left:371px;
+  top:457px;
+}
+#info_line{
+  position:absolute;
+  top:90px;
+  z-index:1;
+}
+#info_clock{
+  position:absolute;
+  top:3px;
+  left:70px;
+  z-index:2;
+}
+
+
+#info_Res-input{
+  position:absolute;
+  border:0px;
+  width:160px;
+  height:20px;
+  left:14px;
+  top:19px;
+  font-size:18px;
+  outline:none;
+  font-family:A;
+  border-radius:10px;
+}
+#info_Res-submit{
+  position:absolute;
+  left:179px;
+  top:15px;
+  width:40px;
+  height:30px;
+}

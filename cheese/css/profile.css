@@ -1,0 +1,58 @@
+#profile_greeting{
+  position:absolute;
+  width:550px;
+  height:53px;
+  top:20px;
+  left:10px;
+}
+#profile_greeting-str{
+  position:absolute;
+  font-size:57px;
+}
+#profile_curName-str{
+  position:absolute;
+  font-size:48px;
+  left:77px;
+  top:5px;
+}
+#profile_banana{
+  position:absolute;
+  left:710px;
+  top:44px;
+}
+#profile_newDate{
+  position:absolute;
+  left:799px;
+  top:10px;
+  z-index:2;
+}
+#profile_deal-str{
+	position:absolute;
+	font-size:30px;
+	top:82px;
+}
+#profile_deal{
+  position:absolute;
+  width:750px;
+  height:190px;
+  top:112px;
+  left:0px;
+  font-size:38px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+#profile_undeal-str{
+	position:absolute;
+	font-size:30px;
+	top:306px;
+}
+#profile_undeal{
+  position:absolute;
+  width:750px;
+  height:210px;
+  top:340px;
+  left:0px;
+  font-size:38px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}

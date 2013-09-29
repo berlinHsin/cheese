@@ -1,0 +1,57 @@
+#invite_friendList{
+  position:absolute;
+  width:1002px;
+  height:170px;
+  top:168px;
+}
+#invite_invitedList{
+  position:absolute;
+  width:810px;
+  left:94;
+  height:150px;
+  top:385px;
+  overflow:scroll;
+}
+#invite_search{
+  position:absolute;
+  background-image:url(p.4/search.png);
+  background-repeat:no-repeat;
+  background-size:100% 99%;
+  width:200px;
+  height:50px;
+  left:402px;
+  top:342px;
+}
+#invite_search-input{
+  position:absolute;
+  outline:none;
+  background:transparent;
+  border:0px;
+  font-size:28px;
+  left:54px;
+  top:4px;
+  width:146px;
+  height:38px;
+  border-radius:20px;
+
+}
+
+#invite_friendLeft{
+  position:absolute;
+  top:216px;
+  left:0px;
+}
+#invite_friendRight{
+  position:absolute;
+  top:216px;
+  left:954px;
+}
+#invite_giveMeFive{
+  position:absolute;
+  top:4px;
+  left:374px;
+}
+#invite_line{
+  position:absolute;
+  top:142px;
+}

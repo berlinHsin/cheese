@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+    <title>Cheese! 一起吃更快樂！</title>	
+    <meta name='cheese!' content="一起吃更快樂！" charset='utf8'/>
+    <link type='text/css' rel='stylesheet' href='css/index.css'/>
+    <link type='text/css' rel='stylesheet' href='css/profile.css'/>
+    <link type='text/css' rel='stylesheet' href='css/type.css'/>
+    <link type='text/css' rel='stylesheet' href='css/info.css'/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js"></script>
+    <script src='js/UserInter.js' type='text/javascript'></script>
+    <script src='js/friend.js' type='text/javascript'></script>
+    <script src='js/api.js' type='text/javascript'></script>
+    <script src='js/FB-login.js' type='text/javascript'></script>
+    <script src='js/URL.js' type='text/javascript'></script>
+    <script src='js/function.js' type='text/javascript'></script>
+    <script src='js/index.js' type='text/javascript'></script>
+  </head>
+
+  <body>
+    <div class='main'>
+      <!--登入頁面--!>
+      <div id='login-page' class='page'>
+	<div id='login-home-cover' class='home-cover'><img src=css/p.1/home-cover.png ></div>
+	<div id='login-login-btn' class='login-btn'><img src=css/p.1/login-btn.png ></div>
+      </div>
+
+      <!--個人頁面--!>
+      <div id='profile-page' class='page'>
+	<div id='profile_greeting'>
+	  <span id='profile_greeting-str'>Hi</span>
+	  <span id='profile_curName-str'></span>
+	</div>
+	<span id='profile_deal-str'>已敲定聚餐</span>
+	<span id='profile_undeal-str'>未敲定聚餐</span>
+	<div id='profile_deal'></div>
+	<div id='profile_undeal'></div>
+	<div id='profile_newDate'><img src=css/p.7/new-date-btn.png></div>
+	<div class='back-decor' id='profile_banana'><img id='profile_banana-pic' src=css/p.7/banana.png></div>
+      </div>
+
+      <!--個人行事歷--!>
+      <div id='calendar-page' class='page'>
+      </div>
+
+      <div id='host-page' class='page' >
+	<div id='host_actInfo'></div>
+	<div id='host_dateList'></div>
+      </div>
+
+      <!--勾選頁面--!>
+      <div id='desicion-page' class='page'>
+	<div id='date-info'></div>
+	<div id='location'>
+	  <span id='location-str'>地點</span>
+	  <div id='location-pic'><img src=css/p.6/location.png></div>
+	  <span id='location-done'></span>
+	</div>
+	<div id='choose-time'>
+	  <span id='notice'>把不行的時間勾選掉</span>
+	</div>
+	<div class='vote'>vote</div>
+      </div>
+
+      <!--邀請類型 --!>
+      <div id='type-page' class='page'>
+	<div id='type-today-btn' class='today-btn'><img src='css/p.2/today.png' ></div> 
+	<div id='type-other-btn' class='other-btn'><img src='css/p.2/other.png' ></div>
+	<div class='left'></div>
+	<div class='right'></div>
+      </div>
+
+
+      <!-- where when --!>	
+      <div id='info-page' class='page'>
+	<div class='back-decor' id='info_line'><img src='css/p.3/line.png'></div>
+	<div class='back-decor' id='info_clock'><img src='css/p.3/clock.png'></div>
+	<div class='info_week'></div>
+	<div class='info_time'></div>
+	<div class='info_where'>
+	  <input type='text' id='info_Res-input' onKeyDown=getRes()></input>
+	  <div id='info_Res-submit'></div>
+	</div>
+	<div class='left'></div>
+	<div class='right'></div>
+      </div>
+
+
+      <!--invite-friend--!>
+      <div id='invite-friend-page' class='page'>
+	<div class='back-decor' id='give-me-five'><img src='css/p.4/give-me-five.png'></div>
+	<div class='back-decor' id='invite-line'><img src='css/p.4/line.png'></div>
+	<div class='friend-list'></div>
+	<div class='fb-dire' id='fb-friend-left'><img src='css/p.4/friend-left.png'></div>
+	<div class='fb-dire' id='fb-friend-right'><img src='css/p.4/friend-right.png'></div>
+	<div class='search-friend'>
+	  <input id='search-friend-bar' type='text' onKeyUp=search_friend()></input>
+	</div>
+	<div class='invited-list'></div>
+	<div class='left'></div>
+	<div class='right'></div>
+      </div>
+
+
+
+      <!--sent message--!>
+      <div id='sent-message-page' class='page'>
+	<div class='back-decor' id='sandwichman'><img src='css/p.5/sandwichman.png'></div>
+	<div class='saying-to-friend'><p>跟你朋友說：</p></div>
+	<input id='msg-bar' type='text'></input>
+	<div class='fb-sent-btn'><img src='css/p.5/fb-sent.png'></div>
+	<div class='left'></div>
+	<div class='click-to-copy-btn'><img src='css/p.5/copy.png'></div>
+      </div>
+
+
+      <div id='login-bottom-logo' class='bottom-logo'><img src=css/p.1/bottom-logo.png ></div>	
+    </div>
+
+    <div id='fb-root' />
+    </body>
+
+  </html>

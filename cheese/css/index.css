@@ -1,0 +1,299 @@
+body{
+  margin: auto;
+  width:1002px;
+  height:612px;
+  background-color:#fedd2e;
+}
+.main{
+  position:relative;
+  margin:0 auto;
+  width:1002px;
+  height:612px;
+}
+#login-home-cover{
+  position:absolute;
+  left:110px;
+  top:100px;
+}
+
+#login-login-btn{
+  position:absolute;
+  left:370px;
+  top:475px;
+}
+#login-bottom-logo{
+  position:absolute;
+  left:419px;
+  top:560px;
+}
+#first-other-btn{
+  position:absolute;
+  left:510px;
+  top:150px;
+}
+#first-today-btn{
+
+  position:absolute;	
+  left:138px;
+  top:150px;
+}
+.time-line{
+  position:absolute;
+  top:240px;
+  width:1002px;
+  height:150px;
+}
+.date-next-week{
+  position:absolute;
+  top:115px;
+  width:1002px;
+  height:150px;
+}
+.where{
+  position:absolute;
+  background-image:url(p.3/input.png);
+  background-repeat:no-repeat;
+  background-size:100% 99%;
+  width:230px;
+  height:60px;
+  left:371px;
+  top:457px;
+}
+
+#when-where-input-bar{
+  position:absolute;
+  border:0px;
+  width:160px;
+  height:20px;
+  left:14px;
+  top:19px;
+  font-size:18px;
+  outline:none;
+  font-family:A;
+  border-radius:10px;
+}
+#where-submit{
+  position:absolute;
+  left:179px;
+  top:15px;
+  width:40px;
+  height:30px;
+}
+.left{
+  position:absolute;
+  background-image:url(p.3/left.png);
+  background-repeat:no-repeat;
+  width:67px;
+  height:68px;
+  top:445px;
+  left:0px;
+}
+.right{
+  position:absolute;
+  background-image:url(p.3/right.png);
+  background-repeat:no-repeat;
+  width:67px;
+  height:68px;
+  top:445px;
+  left:932px;
+}
+.friend-list{
+  position:absolute;
+  width:1002px;
+  height:170px;
+  top:168px;
+}
+#fb-friend-left{
+  position:absolute;
+  top:216px;
+  left:0px;
+}
+#fb-friend-right{
+  position:absolute;
+  top:216px;
+  left:954px;
+}
+#line{
+  position:absolute;
+  top:90px;
+  z-index:1;
+}
+#clock{
+  position:absolute;
+  top:3px;
+  left:70px;
+  z-index:2;
+}
+#give-me-five{
+  position:absolute;
+  top:4px;
+  left:374px;
+}
+#invite-line{
+  position:absolute;
+  top:142px;
+}
+#sandwichman{
+  position:absolute;
+  top:85px;
+  left:223px;
+}
+.saying-to-friend{
+  position:absolute;
+  top:303px;
+  left:467px;
+  font-size:30px;
+}
+#msg-bar{
+  position:absolute;
+  background:transparent;
+  top:327px;
+  left:645px;
+  width:257px;
+  height:40px;
+  border:0px;
+  outline:none;
+  font-size:30px;
+  font-family:A;
+}
+.invited-list{
+  position:absolute;
+  width:810px;
+  left:94;
+  height:150px;
+  top:385px;
+  overflow-y:scroll;
+}
+.fb-sent-btn{
+  position:absolute;
+  top:413px;
+  left:382px;
+}
+.click-to-copy-btn{
+  position:absolute;
+  top:468px;
+  left:382px;
+}
+.search-friend{
+  position:absolute;
+  background-image:url(p.4/search.png);
+  background-repeat:no-repeat;
+  background-size:100% 99%;
+  width:200px;
+  height:50px;
+  left:402px;
+  top:342px;
+}
+#search-friend-bar{
+  position:absolute;
+  outline:none;
+  background:transparent;
+  border:0px;
+  font-size:28px;
+  left:54px;
+  top:4px;
+  width:146px;
+  height:38px;
+  border-radius:20px;
+
+}
+#greeting{
+  position:absolute;
+  width:550px;
+  height:53px;
+  top:20px;
+  left:10px;
+}
+#Hi{
+  position:absolute;
+  font-size:57px;
+}
+#deal-str{
+	position:absolute;
+	font-size:30px;
+	top:82px;
+}
+#deal{
+  position:absolute;
+  width:750px;
+  height:190px;
+  top:112px;
+  left:0px;
+  font-size:38px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+#undeal-str{
+	position:absolute;
+	font-size:30px;
+	top:306px;
+}
+#undeal{
+  position:absolute;
+  width:750px;
+  height:210px;
+  top:340px;
+  left:0px;
+  font-size:38px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+#date-info{
+  position:absolute;
+  width:1002px;
+  height:180px;
+  top:20px;
+}
+#location{
+  position:absolute;
+  width:250px;
+  height:110px;
+  top:215px;
+  left:360px;
+}
+#location-str{
+  position:absolute;
+  font-size:26px;
+  left:96px;
+}
+#choose-time{
+  position:absolute;
+  width:1002px;
+  height:180px;
+  top:348px;
+}
+#notice{
+  position:absolute;
+  font-size:26px;
+  left:368px;
+}
+#banana{
+  position:absolute;
+  left:710px;
+  top:44px;
+}
+#new-date{
+  position:absolute;
+  left:799px;
+  top:10px;
+  z-index:2;
+}
+#location-pic{
+  position:absolute;
+  top:30px;
+  left:35px;
+}
+#location-done{
+  position:absolute;
+  width:100px;
+  height:30px;
+  top:48px;
+  left:75px;
+  font-size:20px;
+  text-align:center;
+}
+.invite-icon{
+  background-image:url(p.7/icon.png);
+  background-repeat:no-repeat;
+  background-size:100% 99%;
+}
